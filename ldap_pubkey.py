@@ -1,8 +1,6 @@
 #!/usr/bin/python2
-
 import sys
 import os
-
 from ldap3 import Server, Connection, ALL, NTLM
 
 LDAP_SERVER = '10.210.17.116'
