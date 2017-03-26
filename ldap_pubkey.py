@@ -3,11 +3,11 @@ import sys
 import os
 from ldap3 import Server, Connection, ALL, NTLM
 
-LDAP_SERVER = '10.210.17.116'
+LDAP_SERVER = '127.0.0.1'
 LDAP_PORT = 389
-LDAP_USER = 'sberned\\ad'
-LDAP_PASSWD = '1130688M@gic'
-BASE_DN = 'OU=Sberned,DC=sberned,DC=lc'
+LDAP_USER = 'exapmle\\user'
+LDAP_PASSWD = '*************'
+BASE_DN = 'OU=users,DC=exapmle,DC=lc'
 
 search_name = sys.argv[1]
 
